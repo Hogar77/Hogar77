@@ -7,7 +7,7 @@ Kontakt
 - GitHub: https://github.com/Hogar77
 - Email: safi@safi.rs
 - Preferirana stopa: $35/hr (negotiable)
-- Dostupnost: [npr. 20 h/week]
+- Dostupnost: 20h/ week
 
 Brze veze
 - sql-api (backend): https://github.com/Hogar77/sql-api  
@@ -66,7 +66,7 @@ Backend developer with ~2 years of experience building REST APIs, integration se
 
 Contact & rate
 - GitHub: https://github.com/Hogar77  
-- Email: your.email@example.com  
+- Email: safi@safi.rs
 - Preferred rate: $35/hr (negotiable)
 
 Portfolio (links)
