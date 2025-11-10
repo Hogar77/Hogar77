@@ -5,7 +5,7 @@ Ja sam backend developer sa ~2 godine iskustva u razvoju REST API-ja, integracio
 
 Kontakt
 - GitHub: https://github.com/Hogar77
-- Email: your.email@example.com
+- Email: safi@safi.rs
 - Preferirana stopa: $35/hr (negotiable)
 - Dostupnost: [npr. 20 h/week]
 
