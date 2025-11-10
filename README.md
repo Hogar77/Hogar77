@@ -12,7 +12,7 @@ Contact
 Quick links
 - Backend (sql-api): [https://github.com/Hogar77/sql-api-copy]
 - Frontend demo (front-b2b): https://github.com/Hogar77/front-b2b
-- ERP sync (erp-api-sync): https://github.com/Hogar77/erp-api-sync
+- ERP sync (erp-api-sync): https://github.com/Hogar77/erp-api-sync-copy
 - Live demo / API: https://b2b.safi.rs/ & https://b2b.safi.rs/api
 - LinkedIn: https://www.linkedin.com/in/predrag-jošić-28639454/
 
