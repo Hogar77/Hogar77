@@ -10,7 +10,7 @@ Contact
 - Availability: 20 hrs/week
 
 Quick links
-- Backend (sql-api): https://github.com/Hogar77/sql-api
+- Backend (sql-api): [https://github.com/Hogar77/sql-api-copy]
 - Frontend demo (front-b2b): https://github.com/Hogar77/front-b2b
 - ERP sync (erp-api-sync): https://github.com/Hogar77/erp-api-sync
 - Live demo / API: https://b2b.safi.rs/ & https://b2b.safi.rs/api
