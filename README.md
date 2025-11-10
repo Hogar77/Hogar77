@@ -31,7 +31,7 @@ Selected projects
 
 Quick start (backend)
 1. Clone:
-   git clone https://github.com/Hogar77/sql-api.git
+   git clone https://github.com/Hogar77/sql-api-copy.git
 2. Create .env from .env.example and fill placeholders (DO NOT commit real secrets).
 3. Install & run:
    npm install
