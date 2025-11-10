@@ -13,7 +13,7 @@ Brze veze
 - sql-api (backend): https://github.com/Hogar77/sql-api  
 - front-b2b (frontend demo): https://github.com/Hogar77/front-b2b  
 - erp-api-sync (ERP ↔ API sync): https://github.com/Hogar77/erp-api-sync  
-- Resume / CV: RESUME.pdf (postavi PDF u ovaj repo ili linkuj iz About)
+- Resume / CV: RESUME.pdf 
 
 Ključne veštine
 - Jezici i frameworki: TypeScript, Node.js, NestJS, JavaScript, T‑SQL  
@@ -75,5 +75,4 @@ Portfolio (links)
 - erp-api-sync: https://github.com/Hogar77/erp-api-sync
 
 Notes
-- Resume PDF: add RESUME.pdf to this repo or link via GitHub Pages.  
-- Make sure no real credentials are committed. If you need private access to additional repos, contact me and I can invite reviewers or temporarily make repos public.
+- Resume PDF: add RESUME.pdf 
