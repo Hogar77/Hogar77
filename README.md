@@ -1,35 +1,56 @@
 # Predrag Jošić — Backend Developer (NestJS, TypeScript)
 
-Backend developer sa ~2 godine iskustva u razvoju REST API‑ja, integracionih rešenja i deploy automatizacije. Specijalizovan za NestJS i TypeScript, sinhronizaciju lokalnih ERP sistema sa cloud servisima (T‑SQL + TypeScript workeri), kao i za postavljanje aplikacija u Docker + Nginx okruženje sa automatskim TLS (Certbot).
+Backend developer with ~2 years of experience building production REST APIs, integration services and deployment automation. I specialize in NestJS and TypeScript, ERP↔cloud synchronization (T-SQL + TypeScript workers), containerized deployments (Docker), and Nginx + automated TLS (Certbot).
 
-Kontakt
+Contact
 - GitHub: https://github.com/Hogar77
 - Email: safi@safi.rs
-- Lokacija: Srbija
-- Preferirana stopa: $35/hr — po dogovoru
-- Dostupnost: 20 h / nedeljno
+- Location: Serbia
+- Preferred rate: $35/hr — negotiable
+- Availability: 20 hrs/week
 
-Brze veze
-- sql-api (backend): https://github.com/Hogar77/sql-api
-- front-b2b (frontend demo): https://github.com/Hogar77/front-b2b
-- erp-api-sync (ERP ↔ API sync): https://github.com/Hogar77/erp-api-sync
+Quick links
+- Backend (sql-api): https://github.com/Hogar77/sql-api
+- Frontend demo (front-b2b): https://github.com/Hogar77/front-b2b
+- ERP sync (erp-api-sync): https://github.com/Hogar77/erp-api-sync
 - Live demo / API: https://b2b.safi.rs/ & https://b2b.safi.rs/api
 - LinkedIn: https://www.linkedin.com/in/predrag-jošić-28639454/
 
-Ključne veštine
-- TypeScript, Node.js, NestJS, JavaScript, T‑SQL
-- PostgreSQL, MS SQL
-- Docker, Docker Compose, Nginx, Certbot, systemd, VPS deploy
-- REST APIs, webhooks, reverse SSH (autossh), Cloudflare Tunnel, WireGuard
-- Unit tests, ESLint, Prettier, Git, GitHub Actions (CI/CD)
-- Swagger/OpenAPI, JWT auth, logging & observability
+Core skills
+- Languages & frameworks: TypeScript, Node.js, NestJS, JavaScript, T-SQL
+- Databases: PostgreSQL, MS SQL
+- DevOps & infra: Docker, Docker Compose, Nginx, Certbot, systemd, VPS deploy
+- Integrations: REST APIs, webhooks, reverse SSH (autossh), Cloudflare Tunnel, WireGuard
+- Testing & tooling: unit tests, ESLint, Prettier, Git, GitHub Actions (CI/CD)
+- Other: Swagger/OpenAPI, JWT auth, logging & observability
 
-Kratko o projektima
-- sql-api — REST API (NestJS) za poslovne entitete; JWT auth, PostgreSQL, Docker Compose, Nginx + Certbot.
-- front-b2b — B2B frontend koji koristi sql-api; demonstrira tokove autentifikacije i deployment.
-- erp-api-sync — Sinhronizacija ERP ↔ cloud API: T‑SQL stored procedures + TypeScript sync workeri; podrška za konekcije bez fiksne IP (Cloudflare Tunnel, autossh, WireGuard).
+Selected projects
+- sql-api — REST API (NestJS) for core business entities (auth, users, CRUD). PostgreSQL, JWT, Swagger. Deployed via Docker Compose + Nginx + Certbot.
+- front-b2b — B2B frontend (TypeScript) consuming sql-api, demonstrating auth flows, token refresh and secure API calls.
+- erp-api-sync — ERP ↔ cloud sync service combining T-SQL stored procedures and TypeScript sync workers. Supports on-prem connectivity patterns (Cloudflare Tunnel, autossh, WireGuard). Includes runbook and deployment instructions.
 
-Napomene
-- Repo sadrži javne linkove i pregled projekata; pune kode primere i detaljne upute nalaze se u pojedinačnim repozitorijima (linkovi gore).
-- Mogu obezbediti pristup privatnim repozitorijima na zahtev ili napraviti privremene demo deploy‑e.
-- Ne zadržavaj nikakve tajne u javnim fajlovima (.env, ključevi). Ako je nešto izloženo, rotiraj ključeve.
+Quick start (backend)
+1. Clone:
+   git clone https://github.com/Hogar77/sql-api.git
+2. Create .env from .env.example and fill placeholders (DO NOT commit real secrets).
+3. Install & run:
+   npm install
+   npm run build
+   npm run start:dev
+
+Deployment notes
+- Recommended: Docker Compose for simple deploys; use Nginx as reverse proxy and Certbot for TLS. For on-prem ERP, use Cloudflare Tunnel or reverse SSH to expose a secure endpoint.
+- Store secrets in your host/CI secret manager (GitHub Actions Secrets, Vault, etc.).
+
+Security
+- Never commit real credentials (.env, private keys). If secrets were exposed, rotate them immediately.
+- Use httpOnly cookies or secure token storage; avoid putting sensitive tokens in localStorage.
+
+Resume & translations
+- Full English resume: add RESUME.pdf to this repo for direct download.
+- Serbian version: RESUME-SR.md (optional) or a section at the bottom of this README.
+
+If you need private repo access for reviews, I can grant it on request.
+
+Topics
+nestjs, typescript, nodejs, rest-api, erp, integration, docker, nginx, certbot, t-sql, postgresql, deployment, devops
