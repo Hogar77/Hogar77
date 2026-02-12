@@ -7,7 +7,7 @@ Contact
 - GitHub: https://github.com/Hogar77
 - Email: safi@safi.rs
 - Location: Serbia
-- Preferred rate: $40/hr — negotiable
+- Preferred rate:   Open to discussion
 - Availability: 20 hrs/week
 
 Quick links
